@@ -1,13 +1,21 @@
-Irina Belchikova 
-tel. +995595711480
-e-mail ira.bel4ikova@gmail.com
-goal: I want to live happily ever after as web-developer
-priorities: be helpfull and be paid
-strong sides: I'm communicative and have willingness to learn and get to know new things
-Skills:
-HTML, css, js, git, VS Code
-Code examples:
-
+# Irina Belchikova 
+![photo](assets/photo.jpg "photo")
+### Contact information:
+#### **tel.**: +995595711480
+#### **e-mail:** ira.bel4ikova@gmail.com
+#### **discord:** Irina Belchikova (@Irina-prog)
+---
+### **Goal:**
+#### I want to live happily ever after as web-developer
+### **Priorities:** 
+#### be helpfull and be paid
+### strong sides:
+#### I'm communicative and have willingness to learn and get to know new things
+### **Skills:**
+#### HTML, css, js, git, VS Code
+---  
+### **Code examples:**
+``` 
 function minMax(arr){
   return [Math.min(...arr), Math.max(...arr)];   
 }
@@ -33,16 +41,20 @@ const towerBuilder = (nFloors) => {
 5: "  ***********  "
 6: " ************* "
 7: "***************"
+```
+### **Experience:**
 
-Experience:
-
-Project: Ways to study, skills: HTML,css  https://github.com/Irina-prog/sprint2learning.git
-Project: Partners of QSOFT company, skills: HTML,css https://github.com/Irina-prog/QSOFT-partners.git 
-Project: Travel in Russia, skills: HTML,css project https://github.com/Irina-prog/sprint3.git 
+* Project: Ways to study, skills: HTML,css  https://github.com/Irina-prog/sprint2learning.git
+* Project: Partners of QSOFT company, skills: HTML,css https://github.com/Irina-prog/QSOFT-partners.git 
+* Project: Travel in Russia, skills: HTML,css project https://github.com/Irina-prog/sprint3.git 
 
 
-Education:
-Yandex-Practicum, self-education
+### **Education:**
+* Bachelor, Moscow State Technological University,Moscow Metrologic information science Faculty.
+* Yandex-Practicum, basic knowledge of programming
 
-English: upper intemidiate (FCE test)
-
+### **Languages:**
+* Russian: native
+* English: B1 - upper intemidiate (FCE test)
+* German: A2 - basic
+* Chineese: beginner
