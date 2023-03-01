@@ -44,13 +44,13 @@ const towerBuilder = (nFloors) => {
 ```
 ### **Experience:**
 
-* Project: Ways to study, skills: HTML,css  https://github.com/Irina-prog/sprint2learning.git
-* Project: Partners of QSOFT company, skills: HTML,css https://github.com/Irina-prog/QSOFT-partners.git 
-* Project: Travel in Russia, skills: HTML,css project https://github.com/Irina-prog/sprint3.git 
+* Project: [Ways to study, skills: HTML,css](https://github.com/Irina-prog/sprint2learning.git)
+* Project: [Partners of QSOFT company, skills: HTML,css](https://github.com/Irina-prog/QSOFT-partners.git) 
+* Project: [Travel in Russia, skills: HTML,css project](https://github.com/Irina-prog/sprint3.git) 
 
 
 ### **Education:**
-* Bachelor, Moscow State Technological University,Moscow Metrologic information science Faculty.
+* Bachelor, Moscow State Technological University, Metrologic information science Faculty.
 * Yandex-Practicum, basic knowledge of programming
 
 ### **Languages:**
