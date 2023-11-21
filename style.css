@@ -46,3 +46,63 @@ html {
   font-size: 35px;
   font-weight: bold;
 }
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 2rem;
+  width: 22px;
+  height: 32px;
+}
+
+.icon_pin {
+  background-image: url(/rsschool-cv/assets/pin.svg);
+
+}
+
+.icon_mail {
+  background-image: url(/rsschool-cv/assets/mail.svg);
+}
+
+.icon_telephone {
+  background-image: url(/rsschool-cv/assets/phone.svg);
+}
+
+.set__social-links {
+  display: block;
+  margin: 0;
+}
+
+.set__social-links>li {
+  display: inline;
+}
+
+.social-links__icon {
+  width: 24px;
+  height: 24px;
+  color: #F5EFDB;
+  margin-right: 11px;
+}
+
+.social-links__icon:hover {
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+  transition: 0.7s;
+}
+
+.title__line {
+  width: 100%;
+  border: 1px solid rgba(211, 220, 50, .6);
+  margin: auto;
+}
+
+;
+margin: auto;
+}
