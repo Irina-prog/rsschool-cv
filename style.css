@@ -1,6 +1,13 @@
+@import url(slider.css);
+
 html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 25px;
 }
 
 .wrapper {
@@ -16,6 +23,7 @@ html {
   justify-content: space-around;
   border-bottom: 4mm ridge rgba(211, 220, 50, .6);
   align-items: center;
+  padding-bottom: 15px;
 }
 
 .name {
@@ -47,12 +55,12 @@ html {
   font-weight: bold;
 }
 
-.contact-info {
+/* .contact-info {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .icon {
 
@@ -76,20 +84,29 @@ html {
   background-image: url(/rsschool-cv/assets/phone.svg);
 }
 
-.set__social-links {
+.set__social-links,
+.set__skills {
   display: block;
   margin: 0;
 }
 
-.set__social-links>li {
+.set__social-links>li,
+.set__skills>li {
   display: inline;
 }
 
-.social-links__icon {
+.social-links__icon,
+.skill__icon {
   width: 24px;
   height: 24px;
   color: #F5EFDB;
   margin-right: 11px;
+  transition: 0.7s;
+}
+
+.skill__icon {
+  width: 44px;
+  height: 44px;
 }
 
 .social-links__icon:hover {
@@ -97,12 +114,14 @@ html {
   transition: 0.7s;
 }
 
+.skill__icon:hover {
+  transform: scale(1.5);
+  transition: 0.7s;
+}
+
 .title__line {
   width: 100%;
   border: 1px solid rgba(211, 220, 50, .6);
   margin: auto;
-}
-
-;
-margin: auto;
+  margin-top: 10px;
 }
