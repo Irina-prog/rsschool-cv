@@ -11,10 +11,34 @@ h2 {
 }
 
 .wrapper {
+  display: grid;
   margin-top: 35px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+    "sidebar main main main"
+    "sidebar main main main"
+    "footer footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.examples {
+  grid-area: main;
+}
+
+.skills {
+  grid-area: sidebar;
+}
+
+.contact-info {
+  grid-area: footer;
 }
 
 .header {
@@ -88,6 +112,11 @@ h2 {
 .set__skills {
   display: block;
   margin: 0;
+}
+
+.set__skills {
+  display: flex;
+  flex-direction: column;
 }
 
 .set__social-links>li,
