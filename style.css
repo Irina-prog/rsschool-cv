@@ -1,0 +1,195 @@
+@import url(slider.css);
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.wrapper {
+  display: grid;
+  margin-top: 35px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+    "skills main main main"
+    "education main main main"
+    "language main main main"
+    "contact-info contact-info contact-info contact-info"
+    "footer footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.education {
+  grid-area: education;
+}
+
+.language {
+  grid-area: language;
+}
+
+.examples {
+  grid-area: main;
+  border: 3px solid blue;
+  overflow-x: hidden;
+  width: 600px;
+  overflow: hidden;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.contact-info {
+  grid-area: contact-info;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 4mm ridge rgba(211, 220, 50, .6);
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.name {
+  margin-top: 0px;
+  font-weight: 100;
+  font-size: 4.5rem;
+}
+
+.wrapper__photo {
+  background-image: url(/rsschool-cv/assets/photo.jpeg);
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  border-radius: 100%;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.position {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* .contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} */
+
+.icon {
+
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 2rem;
+  width: 22px;
+  height: 32px;
+}
+
+.icon_pin {
+  background-image: url(/rsschool-cv/assets/pin.svg);
+
+}
+
+.icon_mail {
+  background-image: url(/rsschool-cv/assets/mail.svg);
+}
+
+.icon_telephone {
+  background-image: url(/rsschool-cv/assets/phone.svg);
+}
+
+.set__social-links,
+.set__skills {
+  display: block;
+  margin: 0;
+}
+
+.set__skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.set__social-links>li,
+.set__skills>li {
+  display: inline;
+}
+
+.social-links__icon,
+.skill__icon {
+  width: 24px;
+  height: 24px;
+  color: #F5EFDB;
+  margin-right: 11px;
+  transition: 0.7s;
+}
+
+.skill__icon {
+  width: 44px;
+  height: 44px;
+}
+
+.social-links__icon:hover {
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+  transition: 0.7s;
+}
+
+.skill__icon:hover {
+  transform: scale(1.5);
+  transition: 0.7s;
+}
+
+.title__line {
+  width: 100%;
+  border: 1px solid rgba(211, 220, 50, .6);
+  margin: auto;
+  margin-top: 10px;
+}
+
+.link-to-projects {
+  background-image: url(assets/Echo_link-blue_icon_slanted.svg);
+}
+
+.footer__development-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 108px;
+  align-items: center;
+  grid-area: footer;
+}
+
+.link_development-course, .link_developer-name, .development-date {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: inherit;
+}
