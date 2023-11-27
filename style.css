@@ -41,7 +41,7 @@ h2 {
 
 .examples {
   grid-area: main;
-  border: 3px solid blue;
+  border: 3px solid rgba(211, 220, 50, .6);
   overflow-x: hidden;
   width: 600px;
   overflow: hidden;
@@ -180,6 +180,7 @@ h2 {
   height: 108px;
   align-items: center;
   grid-area: footer;
+  border-top: 2px solid rgba(211, 220, 50, .6);
 }
 
 .link_development-course, .link_developer-name, .development-date {
@@ -192,4 +193,12 @@ h2 {
   letter-spacing: 2px;
   text-decoration: none;
   color: inherit;
+}
+
+.link_development-course {
+  background-image: url(assets/rs_school_js.svg);
+  height: 70px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  width: 150px;
 }
