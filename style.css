@@ -71,17 +71,11 @@ h2 {
   font-size: 4.5rem;
 }
 
-.wrapper__photo {
-  background-image: url(/rsschool-cv/assets/photo.jpeg);
+.photo {
   width: 200px;
   height: 200px;
   background-size: contain;
   border-radius: 100%;
-}
-
-.photo {
-  width: 150px;
-  height: 150px;
 }
 
 .name {
