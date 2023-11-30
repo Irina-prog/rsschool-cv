@@ -12,6 +12,7 @@ h2 {
 
 .wrapper {
   display: grid;
+  justify-content: center;
   margin-top: 35px;
   width: 80%;
   margin-left: auto;
